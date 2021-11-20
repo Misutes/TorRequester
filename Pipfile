@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+httpx = "*"
+inject = "*"
+python-dotenv = "*"
+environs = "*"
+uvicorn = "*"
+requests = "*"
+aiohttp = "*"
+aiohttp-socks = "*"
+pylama = "*"
+flake8 = "*"
+isort = "*"
+black = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
